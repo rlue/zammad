@@ -1,8 +1,7 @@
 dist: trusty
 sudo: false
 notifications:
-  email:
-    - me+tv@zammad.com
+  email: false
 env:
   - DB=mysql
   - DB=postgresql
